@@ -1,0 +1,78 @@
+body{
+  color: white;
+  margin:0;
+  padding:0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./img//hero.jpg')
+}
+
+main{
+  width: 100vw;
+  height: 100vh;
+}
+
+li{
+  text-align: center;
+  margin: 10px;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+.MenuNavegacion{
+  width: 100%;
+  height: 15%;
+  
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+.MenuNavegacion-LogoMagma{
+  width: 20%;
+  height: 70%;
+}
+
+.MenuNavegacion-Items{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.MenuNavegacion-Items{
+  color: red;
+}
+
+.TitleContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+
+.TituloPrincipal{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.TituloPrincipal p:nth-child(1) {
+  color: red;
+}
+
+.Secciones{
+  display: flex;
+  justify-content: center;
+}
+
+.Secciones a {
+  text-decoration: none;
+  color:white;
+}
+
+.EnlaceSecciones{
+  padding: 10px;
+}

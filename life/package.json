@@ -1,0 +1,15 @@
+{
+  "name": "life",
+  "version": "1.0.0",
+  "description": "Es la actividad de magmalabs",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files public --serveStatic public --reload-delay=300 --reload-debounce=500",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Alberto Vera Villegas <cvera@ucol.mx>",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.24.6"
+  }
+}
